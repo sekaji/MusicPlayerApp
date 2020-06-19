@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="?attr/backgroundcolor">
+<RelativeLayout
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/anything_album"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_album"
+        android:clickable="false"/>
+    <TextView
+        android:id="@+id/anything_songName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/anything_album"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        android:textColor="?attr/stextcolor"
+        android:textStyle="bold"
+        android:text="Anything"
+        />
+    <TextView
+        android:id="@+id/anything_songArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/anything_album"
+        android:layout_below="@+id/anything_songName"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        android:textColor="?attr/atextcolor"
+        android:textStyle="bold"
+        android:text="Chiief Diin, Mallis and Quan"/>
+
+    <ImageView
+        android:id="@+id/anything_play"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="8dp"
+        android:src="@drawable/ic_play"
+        android:clickable="true"/>
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/chargie_album"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_album"
+            android:clickable="false"/>
+        <TextView
+            android:id="@+id/chargie_songName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/chargie_album"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp"
+            android:textColor="?attr/stextcolor"
+            android:textStyle="bold"
+            android:text="Chargie"
+            />
+        <TextView
+            android:id="@+id/chargie_songArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/chargie_album"
+            android:layout_below="@+id/chargie_songName"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp"
+            android:textColor="?attr/atextcolor"
+            android:textStyle="bold"
+            android:text="LRG"/>
+
+        <ImageView
+            android:id="@+id/chargie_play"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="8dp"
+            android:src="@drawable/ic_play"
+            android:clickable="true"/>
+    </RelativeLayout>
+<RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_below="@+id/layout2"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/dela_album"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_album"
+            android:clickable="false"/>
+        <TextView
+            android:id="@+id/dela_songName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dela_album"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp"
+            android:textColor="?attr/stextcolor"
+            android:textStyle="bold"
+            android:text="Dela Move"
+            />
+        <TextView
+            android:id="@+id/dela_songArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dela_album"
+            android:layout_below="@+id/dela_songName"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp"
+            android:textColor="?attr/atextcolor"
+            android:textStyle="bold"
+            android:text="Chronixx"/>
+
+    <ImageView
+        android:id="@+id/dela_play"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="8dp"
+        android:src="@drawable/ic_play"
+        android:clickable="true"/>
+
+
+    </RelativeLayout>
+
+<RelativeLayout
+        android:id="@+id/layout4"
+        android:layout_below="@+id/layout3"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/private_album"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_album"
+            android:clickable="false"/>
+        <TextView
+            android:id="@+id/private_songName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/private_album"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp"
+            android:textColor="?attr/stextcolor"
+            android:textStyle="bold"
+            android:text="Private Zess"
+            />
+        <TextView
+            android:id="@+id/private_songArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/private_album"
+            android:layout_below="@+id/private_songName"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp"
+            android:textColor="?attr/atextcolor"
+            android:textStyle="bold"
+            android:text="K Lion ft LRG"/>
+
+    <ImageView
+        android:id="@+id/private_play"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="8dp"
+        android:src="@drawable/ic_play"
+        android:clickable="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout5"
+        android:layout_below="@+id/layout4"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/tek_album"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_album"
+            android:clickable="false"/>
+        <TextView
+            android:id="@+id/tek_songName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tek_album"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp"
+            android:textColor="?attr/stextcolor"
+            android:textStyle="bold"
+            android:text="Tek Away Myself"
+            />
+        <TextView
+            android:id="@+id/tek_songArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tek_album"
+            android:layout_below="@+id/tek_songName"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp"
+            android:textColor="?attr/atextcolor"
+            android:textStyle="bold"
+            android:text="Chiief Diin"/>
+
+        <ImageView
+            android:id="@+id/tek_play"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="8dp"
+            android:src="@drawable/ic_play"
+            android:clickable="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout6"
+        android:layout_below="@+id/layout5"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/box_album"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_album"
+            android:clickable="false"/>
+        <TextView
+            android:id="@+id/box_songName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/box_album"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp"
+            android:textColor="?attr/stextcolor"
+            android:textStyle="bold"
+            android:text="The Box"
+            />
+        <TextView
+            android:id="@+id/box_songArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/box_album"
+            android:layout_below="@+id/box_songName"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp"
+            android:textColor="?attr/atextcolor"
+            android:textStyle="bold"
+            android:text="Roddy Rich"/>
+
+        <ImageView
+            android:id="@+id/box_play"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="8dp"
+            android:src="@drawable/ic_play"
+            android:clickable="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout7"
+        android:layout_below="@+id/layout6"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Switch
+            android:id="@+id/theme_switch"
+            android:layout_width="40dp"
+            android:layout_height="25dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp">
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TableLayout
+            android:layout_below="@id/seekbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="8dp">
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/rewind"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="0dp"
+                    app:srcCompat="@drawable/ic_previous" />
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="50dp">
+
+                    <ImageView
+                        android:id="@+id/pauseMusic"
+                        android:layout_width="102dp"
+                        android:layout_height="55dp"
+                        android:clickable="true"
+                        android:paddingLeft="30dp"
+                        android:src="@drawable/ic_pause" />
+
+                    <ImageView
+                        android:id="@+id/stopMusic"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="66dp"
+                        android:layout_toRightOf="@id/pauseMusic"
+                        android:clickable="true"
+                        android:src="@drawable/ic_stop" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/forward"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:srcCompat="@drawable/ic_next" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</RelativeLayout>

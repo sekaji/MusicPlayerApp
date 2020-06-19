@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#0353F4</color>
+    <color name="artistLight">#0353F4</color>
+    <color name="nameLight">#1331D6</color>
+
+    <color name="default_screen_bg">#dddddd</color>
+    <color name="rounded_container_bg">#aaaaaa</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="light_gray_header_color">#646663</color>
+</resources>
